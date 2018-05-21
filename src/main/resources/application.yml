@@ -5,7 +5,7 @@ server.port: 7100
 eureka:
   client:
     service-url:
-      defaultZone: http://young:123456@localhost:7000/eureka/
+      defaultZone: http://young:123456@local1:7001/eureka/,http://young:123456@local2:7002/eureka/
 
 
 
