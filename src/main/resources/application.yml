@@ -2,12 +2,20 @@ spring.application.name: cloud-service-demo
 
 server.port: 7100
 
+#日志
+logging:
+  level:
+    root:
+      info
+
+#服务注册中心
 eureka:
   client:
     service-url:
       defaultZone:
 #          http://young:123456@local1:7001/eureka/,http://young:123456@local2:7002/eureka/
           http://young:123456@localhost:7000/eureka/
+
 
 
 
